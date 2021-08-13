@@ -1,0 +1,949 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #868B8E;
+    height: 100vh;
+
+    display: flex;
+
+    margin: 0;
+    overflow: hidden;
+}
+
+.leftside{
+    width: 700px;
+    height: 100%;
+    /* background-color: red; */
+
+    position: relative;
+}
+
+
+/* Cake  */
+.leftside .cake{
+    max-width: 350px;
+
+    -webkit-filter: drop-shadow(5px 5px 30px rgb(255, 255, 255))
+                    drop-shadow(-5px -5px 30px rgb(255, 255, 255));
+    filter: drop-shadow(5px 5px 30px rgb(255, 255, 255))
+            drop-shadow(-5px -5px 30px rgb(255, 255, 255)); 
+
+    margin-top: -2%;
+    margin-left: 30%;
+
+    transform: rotate(6deg);   
+}
+
+
+/* Happy Birthday  */
+.hbd span{
+    background-image: url(../img/color.jpg);
+    background-size: cover;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;  
+
+    font-family: 'Coiny', cursive;
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+
+    animation: mycolor 20s linear infinite;
+
+    z-index: 1;
+}
+
+@keyframes mycolor{
+    from{
+        background-position: 0;
+    }
+    to{
+        background-position: 100%;
+    }
+}
+
+.hbd span:nth-child(1){
+    font-size: 150px;
+    
+    position: absolute;
+    top: 34%;
+    left: 20%;
+
+    transform: rotate(-10deg);
+
+    animation: child1 1s ease-out infinite alternate;
+}
+
+@keyframes child1{
+    to{
+        transform: rotate(-10deg) scale(1.2);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(2){
+    font-size: 150px;
+
+    position: absolute;
+    top: 29.5%;
+    left: 34.5%;
+
+    transform: rotate(-7deg);
+
+    animation: child2 1s ease-out 1s infinite alternate;
+}
+
+@keyframes child2{
+    to{
+        transform: rotate(-7deg) scale(1.2);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(3){
+    font-size: 150px;
+
+    position: absolute;
+    top: 33%;
+    left: 48.5%;
+
+    transform: rotate(-10deg);
+
+    animation: child3 1s ease-out infinite alternate;
+}
+
+@keyframes child3{
+    to{
+        transform: rotate(-10deg) scale(1.2);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(4){
+    font-size: 150px;
+
+    position: absolute;
+    top: 32%;
+    left: 60%;
+
+    transform: rotate(10deg);
+
+    animation: child4 1s ease-out 1s infinite alternate;
+}
+
+@keyframes child4{
+    to{
+        transform: rotate(10deg) scale(1.2);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(5){
+    font-size: 150px;
+
+    position: absolute;
+    top: 35%;
+    left: 71%;
+
+    transform: rotate(15deg);
+
+    animation: child5 1s ease-out infinite alternate;
+}
+
+@keyframes child5{
+    to{
+        transform: rotate(15deg) scale(1.2);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(6){
+    font-size: 100px;
+
+    position: absolute;
+    top: 57%;
+    left: 24%;
+
+    transform: rotate(-5deg);
+
+    animation: child6 1s ease-out 1s infinite alternate;
+}
+
+@keyframes child6{
+    to{
+        transform: rotate(-5deg) scale(1.1);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(7){
+    font-size: 100px;
+
+    position: absolute;
+    top: 54.5%;
+    left: 32.5%;
+
+    transform: rotate(10deg);
+
+    animation: child7 1s ease-out infinite alternate;
+}
+
+@keyframes child7{
+    to{
+        transform: rotate(10deg) scale(1.1);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(8){
+    font-size: 100px;
+
+    position: absolute;
+    top: 58%;
+    left: 36.5%;
+
+    transform: rotate(-7deg);
+
+    animation: child8 1s ease-out 1s infinite alternate;
+}
+
+@keyframes child8{
+    to{
+        transform: rotate(-7deg) scale(1.1);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(9){
+    font-size: 100px;
+
+    position: absolute;
+    top: 55%;
+    left: 42%;
+
+    transform: rotate(-10deg);
+
+    animation: child9 1s ease-out infinite alternate;
+}
+
+@keyframes child9{
+    to{
+        transform: rotate(-10deg) scale(1.1);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(10){
+    font-size: 100px;
+
+    position: absolute;
+    top: 58%;
+    left: 48.5%;
+
+    transform: rotate(7deg);
+
+    animation: child10 1s ease-out 1s infinite alternate;
+}
+
+@keyframes child10{
+    to{
+        transform: rotate(7deg) scale(1.1);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(11){
+    font-size: 100px;
+
+    position: absolute;
+    top: 53%;
+    left: 58%;
+
+    transform: rotate(-8deg);
+
+    animation: child11 1s ease-out infinite alternate;
+}
+
+@keyframes child11{
+    to{
+        transform: rotate(-8deg) scale(1.1);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(12){
+    font-size: 100px;
+
+    position: absolute;
+    top: 57%;
+    left: 65.5%;
+
+    transform: rotate(8deg);
+
+    animation: child12 1s ease-out 1s infinite alternate;
+}
+
+@keyframes child12{
+    to{
+        transform: rotate(8deg) scale(1.1);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(13){
+    font-size: 100px;
+
+    position: absolute;
+    top: 55%;
+    left: 73%;
+
+    transform: rotate(-9deg);
+
+    animation: child13 1s ease-out infinite alternate;
+}
+
+@keyframes child13{
+    to{
+        transform: rotate(-9deg) scale(1.1);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(14){
+    font-size: 80px;
+
+    position: absolute;
+    top: 71%;
+    left: 38%;
+
+    transform: rotate(-15deg);
+
+    animation: child14 1s ease-out 1s infinite alternate;
+}
+
+@keyframes child14{
+    to{
+        transform: rotate(-15deg) scale(1.2);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(15){
+    font-size: 80px;
+
+    position: absolute;
+    top: 70%;
+    left: 44.5%;
+
+    transform: rotate(9deg);
+
+    animation: child15 1s ease-out infinite alternate;
+}
+
+@keyframes child15{
+    to{
+        transform: rotate(9deg) scale(1.2);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(16){
+    font-size: 80px;
+
+    position: absolute;
+    top: 70%;
+    left: 50.5%;
+
+    transform: rotate(-15deg);
+
+    animation: child16 1s ease-out 1s infinite alternate;
+}
+
+@keyframes child16{
+    to{
+        transform: rotate(-15deg) scale(1.2);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(17){
+    font-size: 80px;
+
+    position: absolute;
+    top: 68%;
+    left: 56%;
+
+    transform: rotate(10deg);
+
+    animation: child17 1s ease-out infinite alternate;
+}
+
+@keyframes child17{
+    to{
+        transform: rotate(10deg) scale(1.2);
+        z-index: 2;
+    }
+}
+
+
+.hbd span:nth-child(18){
+    font-size: 80px;
+
+    position: absolute;
+    top: 71%;
+    left: 61.5%;
+
+    transform: rotate(-12deg);
+
+    animation: child18 1s ease-out 1s infinite alternate;
+}
+
+@keyframes child18{
+    to{
+        transform: rotate(-12deg) scale(1.2);
+        z-index: 2;
+    }
+}
+
+
+/* Accessories  */
+.accessories .balloon1{
+    width: 165px;
+
+    -webkit-filter: drop-shadow(1px 1px 30px rgb(255, 255, 255))
+                    drop-shadow(-1px -1px 30px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 30px rgb(255, 255, 255))
+            drop-shadow(-1px -1px 30px rgb(255, 255, 255)); 
+
+    position: absolute;
+    bottom: 7.7%;
+    right: 16%;
+
+    transform: rotate(60deg);
+
+    animation: myballoon1 1s ease-out infinite alternate;
+
+    z-index: 1;
+}
+
+@keyframes myballoon1{
+    to{
+        bottom: 7%;
+        right: 16.5%;
+
+        transform: rotate(70deg) scale(1.1);
+    }
+}
+
+
+
+.accessories .balloon2{
+    width: 200px;
+
+    -webkit-filter: drop-shadow(5px 5px 20px rgb(255, 255, 255))
+                    drop-shadow(-5px -5px 20px rgb(255, 255, 255));
+    filter: drop-shadow(5px 5px 20px rgb(255, 255, 255))
+            drop-shadow(-5px -5px 30px rgb(255, 255, 255)); 
+
+    position: absolute;
+    top: 20%;
+    right: 6%;
+
+    transform: rotate(30deg);
+
+    animation: myballoon2 1s ease-in-out infinite alternate;
+}
+
+@keyframes myballoon2{
+    to{
+        top: 18%;
+        right: 5%;
+    
+        transform: rotate(20deg) scale(1.1);
+    }
+}
+
+
+
+.accessories .balloon3{
+    width: 300px;
+
+    -webkit-filter: drop-shadow(5px 5px 30px rgb(255, 255, 255))
+                    drop-shadow(-5px -5px 30px rgb(255, 255, 255));
+    filter: drop-shadow(5px 5px 30px rgb(255, 255, 255))
+            drop-shadow(-5px -5px 30px rgb(255, 255, 255)); 
+
+    position: absolute;
+    top: 8%;
+    left: 5%;
+
+    transform: rotate(-25deg);
+
+    animation: myballoon3 1s ease-out infinite alternate;
+
+    z-index: 0;
+}
+
+@keyframes myballoon3{
+    100%{
+        top: 6%;
+        left: 3%;
+        transform: rotate(-28deg);
+    }
+}
+
+
+.accessories .giftbox1{
+    width: 150px;
+
+    -webkit-filter: drop-shadow(10px 10px 20px rgb(255, 255, 255))
+                    drop-shadow(-10px -10px 20px rgb(255, 255, 255));
+    filter: drop-shadow(10px 10px 20px rgb(255, 255, 255))
+            drop-shadow(-10px -10px 20px rgb(255, 255, 255));
+
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+
+    animation: giftbox1 3s ease-out infinite alternate;
+}
+
+@keyframes giftbox1{
+    to{
+        transform: scale(1.3) rotate(-10deg);
+    }
+}
+
+
+.accessories .giftbox2{
+    width: 100px;
+
+    -webkit-filter: drop-shadow(5px 5px 30px rgb(255, 255, 255))
+                    drop-shadow(-5px -5px 30px rgb(255, 255, 255));
+    filter: drop-shadow(5px 5px 30px rgb(255, 255, 255))
+            drop-shadow(-5px -5px 30px rgb(255, 255, 255));
+
+    position: absolute;
+    top: 50%;
+    right: 6%;
+
+    animation: giftbox2 2s ease-out 1s infinite alternate;
+}
+
+@keyframes giftbox2{
+    to{
+        transform: scale(1.2) rotate(10deg);
+    }
+}
+
+
+.accessories .hat{
+    width: 200px;
+
+    -webkit-filter: drop-shadow(10px 10px 20px rgb(255, 255, 255))
+                    drop-shadow(-10px -10px 20px rgb(255, 255, 255));
+    filter: drop-shadow(10px 10px 20px rgb(255, 255, 255))
+            drop-shadow(-10px -10px 20px rgb(255, 255, 255));
+
+    position: absolute;
+    top: 50%;
+    left: 3%;
+
+    transform: rotate(-40deg);
+
+    animation: hat 2s ease-out 1s infinite alternate;
+}
+
+@keyframes hat{
+    to{
+        transform: rotate(-20deg) scale(1.1);
+    }
+}
+
+
+
+
+/* Right Side  */
+.rightside{
+    width: 650px;
+    height: 100%;
+    /* background-color: royalblue; */
+    font-family: 'Trade Winds', cursive;
+
+    position: relative;
+}
+
+.rightside h1{
+    width: 100%;
+    height: 150px;
+    /* background-color: red; */
+    color: #EEEDE7;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #000;
+
+    padding: 20px;
+}
+
+.rightside .sayarphoto{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border: 25px solid #D6DFE0;
+    margin-left: 8%;
+
+    transform: rotate(8deg);
+}
+
+.rightside .confetti1{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 5%;
+    left: -10%;
+
+    z-index: -1;
+}
+
+.rightside .present1{
+    width: 130px;
+
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(255, 255, 255))
+                    drop-shadow(-5px -5px 5px rgb(255, 255, 255));
+    filter: drop-shadow(5px 5px 5px rgb(255, 255, 255))
+            drop-shadow(-5px -5px 5px rgb(255, 255, 255));
+
+    position: absolute;
+    bottom: 9%;
+    right: 49%;
+
+    cursor: pointer;
+
+    z-index: 1;
+
+    animation: wish 1s linear infinite alternate;
+}
+
+@keyframes wish{
+    to{
+        transform: scale(1.3);
+    }
+}
+
+.rightside .click{
+    width: 100px;
+
+    position: absolute;
+    bottom: 2%;
+    left: 20%;
+}
+
+.rightside .present2{
+    width: 150px;
+
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(255, 255, 255))
+                    drop-shadow(-5px -5px 5px rgb(255, 255, 255));
+    filter: drop-shadow(5px 5px 5px rgb(255, 255, 255))
+            drop-shadow(-5px -5px 5px rgb(255, 255, 255));
+
+    position: absolute;
+    bottom: 15%;
+    right: 30%;
+}
+
+.rightside .present3{
+    width: 150px;
+
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(255, 255, 255))
+                    drop-shadow(-5px -5px 5px rgb(255, 255, 255));
+    filter: drop-shadow(5px 5px 5px rgb(255, 255, 255))
+            drop-shadow(-5px -5px 5px rgb(255, 255, 255));
+
+    position: absolute;
+    bottom: 2%;
+    right: 33%;
+}
+
+.rightside .present4{
+    width: 200px;
+
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(255, 255, 255))
+                    drop-shadow(-5px -5px 5px rgb(255, 255, 255));
+    filter: drop-shadow(5px 5px 5px rgb(255, 255, 255))
+            drop-shadow(-5px -5px 5px rgb(255, 255, 255));
+
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+
+    cursor: pointer;
+}
+
+
+
+/* Mobile view  */
+@media (max-width:800px) {
+    body{
+        flex-direction: column;
+    }
+
+    .leftside{
+        width: 100%;
+        height: 260px;
+        margin: 5px;
+    }
+
+    .leftside .cake{
+        width: 150px;
+        margin-top: 0%;
+    }
+
+    .hbd span:nth-child(1){
+        font-size: 60px;
+        top: 35%;
+        left: 25%;
+    }
+
+    .hbd span:nth-child(2){
+        font-size: 60px;
+        top: 32%;
+        left: 34%;
+    }
+
+    .hbd span:nth-child(3){
+        font-size: 60px;
+        top: 35%;
+        left: 42%;
+    }
+    
+    .hbd span:nth-child(4){
+        font-size: 60px;
+        top: 34%;
+        left: 49%;
+    }
+    
+    .hbd span:nth-child(5){
+        font-size: 60px;
+        top: 35%;
+        left: 56%;
+    }
+
+    .hbd span:nth-child(6){
+        font-size: 40px;
+        top: 57%;
+        left: 27%;
+    }
+
+    .hbd span:nth-child(7){
+        font-size: 40px;
+        top: 54.5%;
+        left: 32%;
+    }
+
+    .hbd span:nth-child(8){
+        font-size: 40px;
+        top: 58%;
+        left: 35%;
+    }
+
+    .hbd span:nth-child(9){
+        font-size: 40px;
+        top: 55%;
+        left: 39%;
+    }
+
+    .hbd span:nth-child(10){
+        font-size: 40px;
+        top: 58%;
+        left: 43%;
+    }
+
+    .hbd span:nth-child(11){
+        font-size: 40px;
+        top: 53%;
+        left: 49%;
+    }
+
+    .hbd span:nth-child(12){
+        font-size: 40px;
+        top: 57%;
+        left: 53%;
+    }
+
+    .hbd span:nth-child(13){
+        font-size: 40px;
+        top: 55%;
+        left: 58%;
+    }
+    
+    .hbd span:nth-child(14){
+        font-size: 30px;
+        top: 71%;
+        left: 38%;
+    }
+
+    .hbd span:nth-child(15){
+        font-size: 30px;
+        top: 70%;
+        left: 42%;
+    }
+
+    .hbd span:nth-child(16){
+        font-size: 30px;
+        top: 70%;
+        left: 46%;
+    }
+    
+    .hbd span:nth-child(17){
+        font-size: 30px;
+        top: 68%;
+        left: 49%;
+    }  
+    
+    .hbd span:nth-child(18){
+        font-size: 30px;
+        top: 71%;
+        left: 52%;
+    }
+    
+    .accessories .balloon1{
+        width: 70px;
+        bottom: 9%;
+        right: 36%;
+    }
+
+    @keyframes myballoon1{
+        to{
+            bottom: 8%;
+            right: 36.5%;
+        }
+    }
+
+    .accessories .balloon2{
+        width: 80px;
+        top: 20%;
+        right: 29%;
+    }
+
+    @keyframes myballoon2{
+        to{
+            top: 19%;
+            right: 28%;
+        }
+    }
+
+    .accessories .balloon3{
+        width: 100px;
+        top: 10%;
+        left: 20%;
+    }
+
+    @keyframes myballoon3{
+        100%{
+            top: 10%;
+            left: 19%;
+        }
+    }
+
+    .accessories .giftbox1{
+        width: 70px;
+        bottom: 3%;
+        left: 26%;
+    }
+
+    .accessories .giftbox2{
+        width: 50px;
+        top: 50%;
+        right: 28%;
+    }
+
+    .accessories .hat{
+        width: 80px;
+        top: 50%;
+        left: 15%;
+    }
+
+
+    .rightside{
+        width: 100%;
+        height: 300px;
+        /* background-color: royalblue; */
+    }
+
+    .rightside h1{
+        width: 100%;
+        height: 80px;
+        /* background-color: red; */
+        font-size: 12px;  
+        text-align: center;
+        padding: 10px 20px;
+    }
+    
+    .rightside .sayarphoto{
+        width: 150px;
+        height: 180px;
+        border: 10px solid #D6DFE0;
+        margin-left: 30%;
+    }
+    
+    .rightside .confetti1{
+        width: 300px;
+        height: 300px;
+        top: 5%;
+        left: 17%;
+    }
+    
+    .rightside .present1{
+        width: 80px;
+        bottom: 2%;
+        right: 36%;
+    }
+
+    .rightside .click{
+        width: 50px;
+        bottom: -5%;
+        left: 38%;
+    }
+    
+    .rightside .present2{
+        width: 80px;
+        bottom: 15%;
+        right: 25%;
+    }
+    
+    .rightside .present3{
+        width: 80px;
+        bottom: 2%;
+        right: 25%;
+    }
+    
+    .rightside .present4{
+        width: 100px;
+        bottom: 5%;
+        right: 8%;
+    }
+}
