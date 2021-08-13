@@ -706,7 +706,7 @@ body{
 
 
 /* Mobile view  */
-@media (max-width:580px) {
+@media (max-width:400px) {
     body{
         flex-direction: column;
     }
