@@ -10,6 +10,8 @@ body{
     height: 100vh;
 
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     margin: 0;
     overflow: hidden;
@@ -53,18 +55,7 @@ body{
     -webkit-text-stroke: 1px rgb(255, 255, 255);
     text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
 
-    animation: mycolor 20s linear infinite;
-
     z-index: 1;
-}
-
-@keyframes mycolor{
-    from{
-        background-position: 0;
-    }
-    to{
-        background-position: 100%;
-    }
 }
 
 .hbd span:nth-child(1){
@@ -442,7 +433,7 @@ body{
 
     transform: rotate(60deg);
 
-    animation: myballoon1 1s ease-out infinite alternate;
+    animation: myballoon1 0.5s ease-out infinite alternate;
 
     z-index: 1;
 }
@@ -472,7 +463,7 @@ body{
 
     transform: rotate(30deg);
 
-    animation: myballoon2 1s ease-in-out infinite alternate;
+    animation: myballoon2 0.5s ease-in-out infinite alternate;
 }
 
 @keyframes myballoon2{
@@ -500,7 +491,7 @@ body{
 
     transform: rotate(-25deg);
 
-    animation: myballoon3 1s ease-out infinite alternate;
+    animation: myballoon3 0.5s ease-out infinite alternate;
 
     z-index: 0;
 }
@@ -526,7 +517,7 @@ body{
     bottom: 5%;
     left: 20%;
 
-    animation: giftbox1 3s ease-out infinite alternate;
+    animation: giftbox1 1s ease-out infinite alternate;
 }
 
 @keyframes giftbox1{
@@ -548,7 +539,7 @@ body{
     top: 50%;
     right: 6%;
 
-    animation: giftbox2 2s ease-out 1s infinite alternate;
+    animation: giftbox2 1s ease-out 1s infinite alternate;
 }
 
 @keyframes giftbox2{
@@ -572,7 +563,7 @@ body{
 
     transform: rotate(-40deg);
 
-    animation: hat 2s ease-out 1s infinite alternate;
+    animation: hat 1s ease-out 1s infinite alternate;
 }
 
 @keyframes hat{
@@ -706,8 +697,9 @@ body{
 
 
 /* Mobile view  */
-@media (max-width:800px) {
+@media(max-width: 800px){
     body{
+        display: flex;
         flex-direction: column;
     }
 
