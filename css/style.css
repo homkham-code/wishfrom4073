@@ -23,6 +23,8 @@ body{
     /* background-color: red; */
 
     position: relative;
+
+    overflow: hidden;
 }
 
 
@@ -530,10 +532,10 @@ body{
 .accessories .giftbox2{
     width: 100px;
 
-    -webkit-filter: drop-shadow(5px 5px 30px rgb(255, 255, 255))
-                    drop-shadow(-5px -5px 30px rgb(255, 255, 255));
-    filter: drop-shadow(5px 5px 30px rgb(255, 255, 255))
-            drop-shadow(-5px -5px 30px rgb(255, 255, 255));
+    -webkit-filter: drop-shadow(5px 5px 10px rgb(255, 255, 255))
+                    drop-shadow(-5px -5px 10px rgb(255, 255, 255));
+    filter: drop-shadow(5px 5px 10px rgb(255, 255, 255))
+            drop-shadow(-5px -5px 10px rgb(255, 255, 255));
 
     position: absolute;
     top: 50%;
@@ -583,6 +585,8 @@ body{
     font-family: 'Trade Winds', cursive;
 
     position: relative;
+
+    overflow: hidden;
 }
 
 .rightside h1{
@@ -712,6 +716,11 @@ body{
     .leftside .cake{
         width: 150px;
         margin-top: 0%;
+
+        -webkit-filter: drop-shadow(5px 5px 5px rgb(255, 255, 255))
+                    drop-shadow(-5px -5px 5px rgb(255, 255, 255));
+        filter: drop-shadow(5px 5px 5px rgb(255, 255, 255))
+            drop-shadow(-5px -5px 5px rgb(255, 255, 255));
     }
 
     .hbd span:nth-child(1){
@@ -826,6 +835,11 @@ body{
         width: 70px;
         bottom: 9%;
         right: 36%;
+
+        -webkit-filter: drop-shadow(1px 1px 10px rgb(255, 255, 255))
+                    drop-shadow(-1px -1px 10px rgb(255, 255, 255));
+        filter: drop-shadow(1px 1px 10px rgb(255, 255, 255))
+                drop-shadow(-1px -1px 10px rgb(255, 255, 255));
     }
 
     @keyframes myballoon1{
@@ -852,6 +866,11 @@ body{
         width: 100px;
         top: 10%;
         left: 20%;
+
+        -webkit-filter: drop-shadow(5px 5px 10px rgb(255, 255, 255))
+                    drop-shadow(-5px -5px 10px rgb(255, 255, 255));
+        filter: drop-shadow(5px 5px 10px rgb(255, 255, 255))
+                drop-shadow(-5px -5px 10px rgb(255, 255, 255));
     }
 
     @keyframes myballoon3{
@@ -863,8 +882,13 @@ body{
 
     .accessories .giftbox1{
         width: 70px;
-        bottom: 3%;
+        bottom: 5%;
         left: 26%;
+
+        -webkit-filter: drop-shadow(5px 5px 3px rgb(255, 255, 255))
+                    drop-shadow(-5px -5px 3px rgb(255, 255, 255));
+        filter: drop-shadow(5px 5px 3px rgb(255, 255, 255))
+                drop-shadow(-5px -5px 3px rgb(255, 255, 255));
     }
 
     .accessories .giftbox2{
